@@ -1,0 +1,7 @@
+Useful Display Filters:
+
+rtp                         # show only RTP media packets 
+rtcp                        # show only RTP control/report packets 
+rtp.ssrc == 0x12345678      # a single media stream by its SSRC id 
+rtp.marker == 1             # talk-spurt / frame boundary markers 
+sip                         # the SIP signalling that set up the call 
